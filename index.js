@@ -4,6 +4,7 @@
 //
 
 function incrementCount() {
-  count++;
-  render();
+ // count++;
+ console.log("Button Clicked")
+ //render(); 
 }
