@@ -2,3 +2,8 @@
 //listen to click on increment button
 //increment count on clicked button
 //
+
+function incrementCount() {
+  count++;
+  render();
+}
