@@ -1,5 +1,14 @@
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-image: url(train.jpg) no-repeat;
+}
 
 h2 {
     font-size: 50px;
