@@ -1,15 +1,22 @@
+let saveEl = document.getElementById('save-el');
+ let countEl = document.getElementById("count-el");
+ let count ;
+console.log(saveEl);
 
-let countEl = document.getElementById("count-el");
-let count = 0;
-
-function increment() {
-  count = count + 1;
-    countEl.innerHTML = count;
-  console.log(count);
+ function increment() {
+   count +=  1;
+     countEl.innerHTML = count;
+   console.log(count);
 }
 
 function save() {
-  console.log(count);
-
-}
+let countStr = count + "-";
+saveEl.innerHTML += countStr;
+console.log(count);
+ }
 save();
+
+
+
+
+
